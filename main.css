@@ -1,0 +1,29 @@
+body {
+    background: rgb(238, 196, 152);
+    font-family: arial, sans-serif:
+  }
+  h1 {
+    color:rgb(2, 82, 109);
+
+  }
+  P {color: rgb(2, 82, 109);
+  }
+  button {
+    background: rgb(238, 196, 152);
+    border: none;
+    color: whitesmoke;
+    }
+
+    ul{
+      margin:0;
+      padding: 0;
+      list-style-type:none;
+    }
+
+    li {
+      display: inline-block;
+      margin-right: 20px;
+
+    }
+
+
