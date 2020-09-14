@@ -1,5 +1,5 @@
 body {
-    background: rgb(238, 196, 152);
+    background: rgb(224, 180, 133);
     font-family: arial, sans-serif:
   }
   h1 {
@@ -8,12 +8,7 @@ body {
   }
   P {color: rgb(2, 82, 109);
   }
-  button {
-    background: rgb(238, 196, 152);
-    border: none;
-    color: whitesmoke;
-    }
-
+ 
     ul{
       margin:0;
       padding: 0;
