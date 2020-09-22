@@ -19,42 +19,68 @@
         HTML and CSS are like a house. The HTML is the building equipment for the house - the wood, structure and everything you need to get the frame of the house. 
         The CSS is the interior design of the house, the style e.g where the windows will go, what colours you will be painting the walls and everything that makes the structure of the house work and come alive. </p>
         
-        <img src= "file:\\C:\Users\Claire\Desktop\reflections\Images\cute-house-clipart.gif">
+        <img src= "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSMgN2cgmBiC3UrJK2ZO1ezf6F3DWCEHqNcng&usqp=CAU">
 
-        
-        <h3>Explain control flow and loops using an example process from everyday life, for example 'waking up' or 'brushing your teeth'. (But not those ones).</h3>
-
-
-
-        <h3>Describe what the DOM is and an example of how you might interact with it.</h3>
-       
         <p>
 
-        The DOM is the Document Object Model that is accessed through Developer tools and essentially is
-        how Javascript interacts with the html within a website. It uses nodes (trees) to logically determine 
-        from the html the structure of the documents and creates a way to change and manipulate them.
+        <h3>Explain control flow and loops using an example process from everyday life, for example 'waking up' or 'brushing your teeth'. (But not those ones).</h3>
+
+        The control flow is the order that the computer interperts the code from a statement.
+        Loops are something that can change the control flow therefore you can use loops to make the code to run differently than the
+        originally ordered structure. 
+
+        You can think about this like baking banana muffins, the recipe contains step by step (flow) instructions and ingredients. 
+        You realise that the recipe you are using only makes 6 cupcakes and that you want to double it to make 12. 
+        And you also want to add in chocolate chips because you found some in the cupboard. 
+        Then you make the decision to make half of the muffins to be blueberry flavour and the other half to be chocolate chip. 
+        We can use while this is true loops to make sure that we can alter the flow but remain on track to producing the desired outcome. 
+
+        All these changes are conditions that you have applied to change the control flow that alters the course of the baking 
+        but also produces the outcome we desire. 
         </p>
 
-        <img src= "file:///C:/Users/Claire/Desktop/reflections/Images/main-qimg-d009d0c47398a89870c46912e1e09b89.webp">
 
-        
+        <p>
+
+        <h3>Describe what the DOM is and an example of how you might interact with it.</h3>
+    
+        The DOM is the Document Object Model that is essentially the actual page loaded in the window of a website or 
+        'document object' as known in Javascript.
+        Within Javascript it is how it interacts with the content (hmtl) of a website by using nodes (trees) to determine 
+        from the html the structure of the documents. 
+        As the nodes are made up from objects they can be used to manipulate the information within the 
+        HTML & CSS of the document. 
+        The DOM lets you build, document, navigate their structure and modify or delete elements and content. 
+        This is all accessed through Developer Tools and can also assist with testing and debugging websites. 
+        </p>
+
+        <img src= "https://courses.cs.washington.edu/courses/cse190m/07sp/lectures/slides/images/dom.png">
+
+        <p>
         <h3>Explain the difference between accessing data from arrays and objects.<h/3>
-     
-            <p>
+            
 
-            An object:
-            An object is a collection of properties.
+            Objects are named values that can either be properties or methods. 
+            Properties within Javascript are name:values pairs eg. firstName:Claire 
+            A method is a function definition stored in a property to create an action. 
+            eg. fullName : function() {
+                        return this.firstName + "" +this.lastName
+            }
+        
+
+            An array is a variable that can hold more than on value at a time.
+            It can hold many values under one name and you access them using an index number.
+            Arrays start with 0 as the first element and 1 as the second - this is important to remember. 
+            Arrays are actually special kinds of objects and because of this you can have different types in the same array
+             eg. functions in an array or objects in an array or arrays in an array. 
             
-            An Array: 
-            Array can be an object but is a special kind. 
-            
-            Arrays unlike objects are used to store a collection of data. 
+            The difference is that arrays use numbers to access it's elements whereas objects use names. 
 
         </p>
 
+        <p>
        <h3>Explain what functions are and why they are useful.</h3>
 
-       <p>
        
         A function essentially is used to wrap a bunch of code which performs an specific action. 
         Functions serve two purposes they groups statements together and makes your code reusable.
@@ -63,6 +89,5 @@
         </p>
 
 
-        
     </body>
 </html>
