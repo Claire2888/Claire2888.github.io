@@ -2,6 +2,9 @@ body {
     background: rgb(224, 180, 133);
     font-family: arial, sans-serif;
   }
+  @media only screen and (max-width: 320px) {
+  .example {background: red;}
+}
   h1 {
     color:rgb(2, 82, 109);
     text-align: center; 
