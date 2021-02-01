@@ -20,6 +20,9 @@ body {
     text-align: center;
   }
 
+  li {color:gray;
+    text-align: center;}
+
   div {
     text-align: center;
   }
