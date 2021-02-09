@@ -1,18 +1,18 @@
 body {
-    background: rgba(186, 184, 199, 0.767);
+    background: rgba(231, 230, 238, 0.767);
     font-family: arial, sans-serif;
   }
   @media only screen and (max-width: 320px) {
   .example {background: red;}
 }
   h1 {
-    color:rgb(2, 82, 109);
+    color:rgb(33, 108, 133);
     text-align: center; 
   }
   h2{color: rebeccapurple;
     text-align: center;
   }
-  h4{color:rgba(159, 154, 235, 0.747);
+  h4{color:rgba(45, 39, 131, 0.747);
     text-align: center;
   }
 
