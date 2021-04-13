@@ -1,12 +1,12 @@
 body {
-    background: rgba(136, 128, 184, 0.932)
+    background: rgba(117, 112, 150, 0.932)
     font-family: arial, sans-serif;
   }
   @media only screen and (max-width: 320px) {
-  .example {background: rgb(124, 100, 100);}
+  .example {background: rgb(161, 114, 114);}
 }
   h1 {
-    color:rgb(111, 159, 175);
+    color:rgb(130, 125, 199);
     text-align: center; 
   }
   h2{color: rgb(168, 138, 164);
